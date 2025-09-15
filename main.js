@@ -46,7 +46,7 @@ async function loadSection(sectionId) {
         document.querySelectorAll('#main-nav ul li a').forEach(link => {
             link.classList.remove('active');
             // Check if the link href matches the main section or a sub-section of 'ministerios'
-            if (link.getAttribute('href') === `#${sectionId}` {
+            if (link.getAttribute('href') === `#${sectionId}`) {
                 link.classList.add('active');
             }
         });
