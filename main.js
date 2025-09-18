@@ -21,6 +21,8 @@ async function loadSection(sectionId) {
         'eventos-noticias', 'recursos', 'medios', 'contacto',
         // Add specific ministry pages for dynamic loading
         'femenil', 'juventud', 'varones', 'misioneritas', 'exploradores'
+        // Add general ministry pages for dynamic loading
+        'escuela-dominical', 'misiones', 'evangelismo', 'desead', 'multimedia'
     ];
     if (!validSections.includes(sectionId)) {
         console.warn(`Attempted to load invalid section: ${sectionId}. Loading home instead.`);
