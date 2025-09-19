@@ -20,7 +20,7 @@ async function loadSection(sectionId) {
         'home', 'nosotros', 'doctrina', 'ministerios',
         'eventos-noticias', 'recursos', 'medios', 'contacto',
         // Add specific ministry pages for dynamic loading
-        'femenil', 'juventud', 'varones', 'misioneritas', 'exploradores',
+        'femenil', 'juventud', 'varones', 'misioneritas', 'exploradores', 'danza',
         // Add general ministry pages for dynamic loading
         'escuela-dominical', 'misiones', 'evangelismo', 'desead', 'multimedia'
     ];
@@ -92,7 +92,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const validSections = [
                 'home', 'nosotros', 'doctrina', 'ministerios',
                 'eventos-noticias', 'recursos', 'medios', 'contacto',
-                'femenil', 'juventud', 'varones', 'misioneritas', 'exploradores',
+                'femenil', 'juventud', 'varones', 'misioneritas', 'exploradores', 'danza',
                 'escuela-dominical', 'misiones', 'evangelismo', 'desead', 'multimedia'
             ];
 
